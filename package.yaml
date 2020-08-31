@@ -28,7 +28,6 @@ flags:
 ghc-options:
 - -Wall
 - -Wcompat
-- -Werror
 - -Widentities
 - -Wimplicit-prelude
 - -Wincomplete-record-updates

@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2e4becafa02ba187c301cc4446858e62695d37658f5b4bcc594fbec843fbf547
+-- hash: 34a788b41cd0ff6e77f9045d78ad27d946fd81ab9ce667cbb1bb61ec652e0ef5
 
 name:           conversions
 version:        0.0.2
@@ -34,7 +34,7 @@ library
   hs-source-dirs:
       src
   default-extensions: AllowAmbiguousTypes ConstraintKinds DataKinds DerivingStrategies DerivingVia DuplicateRecordFields FlexibleContexts FlexibleInstances ExistentialQuantification KindSignatures LambdaCase MultiParamTypeClasses NoImplicitPrelude OverloadedLists OverloadedStrings PolyKinds ScopedTypeVariables StrictData TupleSections TypeApplications TypeFamilies TypeOperators
-  ghc-options: -Wall -Wcompat -Werror -Widentities -Wimplicit-prelude -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-local-signatures -Wmissing-signatures -Wmonomorphism-restriction -Wredundant-constraints -fhide-source-paths -fplugin=SourceConstraints -funbox-strict-fields -optP-Wno-nonportable-include-path
+  ghc-options: -Wall -Wcompat -Widentities -Wimplicit-prelude -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-local-signatures -Wmissing-signatures -Wmonomorphism-restriction -Wredundant-constraints -fhide-source-paths -fplugin=SourceConstraints -funbox-strict-fields -optP-Wno-nonportable-include-path
   build-depends:
       base >4.12 && <4.15
     , bytestring >=0.10 && <0.11
@@ -58,7 +58,7 @@ test-suite test
   other-modules:
       Paths_conversions
   default-extensions: AllowAmbiguousTypes ConstraintKinds DataKinds DerivingStrategies DerivingVia DuplicateRecordFields FlexibleContexts FlexibleInstances ExistentialQuantification KindSignatures LambdaCase MultiParamTypeClasses NoImplicitPrelude OverloadedLists OverloadedStrings PolyKinds ScopedTypeVariables StrictData TupleSections TypeApplications TypeFamilies TypeOperators
-  ghc-options: -Wall -Wcompat -Werror -Widentities -Wimplicit-prelude -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-local-signatures -Wmissing-signatures -Wmonomorphism-restriction -Wredundant-constraints -fhide-source-paths -fplugin=SourceConstraints -funbox-strict-fields -optP-Wno-nonportable-include-path -rtsopts -threaded -with-rtsopts=-N
+  ghc-options: -Wall -Wcompat -Widentities -Wimplicit-prelude -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-local-signatures -Wmissing-signatures -Wmonomorphism-restriction -Wredundant-constraints -fhide-source-paths -fplugin=SourceConstraints -funbox-strict-fields -optP-Wno-nonportable-include-path -rtsopts -threaded -with-rtsopts=-N
   build-depends:
       base >4.12 && <4.15
     , bytestring >=0.10 && <0.11
