@@ -1,21 +1,23 @@
-name:       conversions
-synopsis:   Injective explicit total and partial conversions
-homepage:   https://github.com/mbj/conversions#readme
-maintainer: Markus Schirp mbj@schirp-ds.com, Allan Lukwago <epicallan.al@gmail.com>
 copyright:  2020 Strainge Inc.
 github:     mbj/conversions
+homepage:   https://github.com/mbj/conversions#readme
+license:    MIT
+maintainer: Markus Schirp mbj@schirp-ds.com, Allan Lukwago <epicallan.al@gmail.com>
+name:       conversions
+synopsis:   Injective explicit total and partial conversions
 version:    0.0.2
 
 dependencies:
-- base
-- bytestring
-- control-bool
-- devtools
-- exceptions
-- mtl
-- source-constraints
-- template-haskell
-- text
+- base               > 4.12 && < 4.15
+- bytestring         ^>= 0.10
+- control-bool       ^>= 0.2
+- devtools           ^>= 0.0.2
+- exceptions         ^>= 0.10
+- mtl                ^>= 2.2
+- source-constraints ^>= 0.0.1
+- template-haskell   ^>= 2.15
+- text               ^>= 1.2
+- unliftio-core      ^>= 0.1
 
 ghc-options:
 - -Wall
