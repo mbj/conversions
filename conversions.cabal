@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 34a788b41cd0ff6e77f9045d78ad27d946fd81ab9ce667cbb1bb61ec652e0ef5
+-- hash: af228e1e869b0fe72325cd5952e99544b520dbd169e234d7b914797a173c0792
 
 name:           conversions
-version:        0.0.2
+version:        0.0.3
 synopsis:       Injective explicit total and partial conversions
 homepage:       https://github.com/mbj/conversions#readme
 bug-reports:    https://github.com/mbj/conversions/issues
