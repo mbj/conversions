@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 88f1664227f5546f19c3c7ec2668c1d8b5f5f82574b1b893e1f1673f2821f287
+-- hash: 2e4becafa02ba187c301cc4446858e62695d37658f5b4bcc594fbec843fbf547
 
 name:           conversions
 version:        0.0.2
@@ -19,6 +19,11 @@ build-type:     Simple
 source-repository head
   type: git
   location: https://github.com/mbj/conversions
+
+flag development
+  description: Run GHC with development flags
+  manual: True
+  default: False
 
 library
   exposed-modules:
@@ -41,6 +46,10 @@ library
     , template-haskell >=2.15 && <2.16
     , text >=1.2 && <1.3
     , unliftio-core >=0.1 && <0.2
+  if flag(development)
+    ghc-options: -Werror
+  else
+    ghc-options: -Wwarn
   default-language: Haskell2010
 
 test-suite test
@@ -62,4 +71,8 @@ test-suite test
     , template-haskell >=2.15 && <2.16
     , text >=1.2 && <1.3
     , unliftio-core >=0.1 && <0.2
+  if flag(development)
+    ghc-options: -Werror
+  else
+    ghc-options: -Wwarn
   default-language: Haskell2010
