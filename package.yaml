@@ -4,7 +4,7 @@ homepage:   https://github.com/strainge/conversion#readme
 maintainer: Markus Schirp mbj@schirp-ds.com, Allan Lukwago <epicallan.al@gmail.com>
 copyright:  2020 Strainge Inc.
 github:     strainge/conversion
-version:    0.0.1
+version:    0.0.2
 
 dependencies:
 - base
