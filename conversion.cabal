@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c681ac66c7ed8fe2f468ff3525fa38e739cfc8dc92d867fa9c2ac6a63979664f
+-- hash: 770a2180396c76d99a23751c32a955d0ac1ddbd38c01a08383fa75b8f3acc7e4
 
 name:           conversion
-version:        0.0.1
+version:        0.0.2
 synopsis:       Injective explicit total and partial conversions
 homepage:       https://github.com/strainge/conversion#readme
 bug-reports:    https://github.com/strainge/conversion/issues
