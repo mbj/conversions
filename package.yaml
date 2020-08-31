@@ -1,9 +1,9 @@
-name:       conversion
+name:       conversions
 synopsis:   Injective explicit total and partial conversions
-homepage:   https://github.com/strainge/conversion#readme
+homepage:   https://github.com/mbj/conversions#readme
 maintainer: Markus Schirp mbj@schirp-ds.com, Allan Lukwago <epicallan.al@gmail.com>
 copyright:  2020 Strainge Inc.
-github:     strainge/conversion
+github:     mbj/conversions
 version:    0.0.2
 
 dependencies:
@@ -69,4 +69,4 @@ tests:
     - -threaded
     - -with-rtsopts=-N
     dependencies:
-    - conversion
+    - conversions
