@@ -5,7 +5,7 @@ license:    MIT
 maintainer: Markus Schirp mbj@schirp-ds.com, Allan Lukwago <epicallan.al@gmail.com>
 name:       conversions
 synopsis:   Injective explicit total and partial conversions
-version:    0.0.3
+version:    0.0.4
 
 dependencies:
 - base               > 4.12 && < 4.15
