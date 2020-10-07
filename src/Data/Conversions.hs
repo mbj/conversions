@@ -107,6 +107,24 @@ instance (MonadError (UserBoundError Natural Int64) m) => Conversion (m Int64) N
 instance Conversion a a where
   convert = id
 
+instance Conversion Int16 Word8 where
+  convert = fromIntegral
+
+instance Conversion Int32 Word8 where
+  convert = fromIntegral
+
+instance Conversion Int64 Word8 where
+  convert = fromIntegral
+
+instance Conversion Int32 Word16 where
+  convert = fromIntegral
+
+instance Conversion Int64 Word16 where
+  convert = fromIntegral
+
+instance Conversion Int64 Word32 where
+  convert = fromIntegral
+
 instance Conversion Integer Int where
   convert = fromIntegral
 
