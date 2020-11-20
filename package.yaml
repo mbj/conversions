@@ -5,19 +5,18 @@ license:    MIT
 maintainer: Markus Schirp mbj@schirp-ds.com, Allan Lukwago <epicallan.al@gmail.com>
 name:       conversions
 synopsis:   Injective explicit total and partial conversions
-version:    0.0.3
+version:    0.0.4
 
 dependencies:
 - base               > 4.12 && < 4.15
 - bytestring         ^>= 0.10
 - control-bool       ^>= 0.2
-- devtools           ^>= 0.0.2
 - exceptions         ^>= 0.10
 - mtl                ^>= 2.2
-- source-constraints ^>= 0.0.1
-- template-haskell   ^>= 2.15
+- source-constraints ^>= 0.0.2
+- template-haskell   ^>= 2.15 || ^>= 2.16
 - text               ^>= 1.2
-- unliftio-core      ^>= 0.1
+- unliftio-core      ^>= 0.2
 
 flags:
   development:
@@ -84,3 +83,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - conversions
+    - devtools ^>= 0.1.0

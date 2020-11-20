@@ -1,4 +1,4 @@
-resolver: lts-16.22
+resolver: nightly-2020-11-19
 extra-deps:
 - devtools-0.1.0@sha256:c5898fe567d610492cc140495f0828c55e64e7c1b28dc2b1b9a84cc5f6dc7c39,3148
 - mprelude-0.2.1@sha256:c7cfd52b86c4a5469cffd84e84e96157c99ef05173b14cf309498b291c867a8f,2968
