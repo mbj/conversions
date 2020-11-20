@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: af228e1e869b0fe72325cd5952e99544b520dbd169e234d7b914797a173c0792
+-- hash: ecc93f5529b07c52c10bc1ae9f1330c057e62cc8dc3b7bc5a8ca1efc5b8e1abf
 
 name:           conversions
 version:        0.0.3
@@ -39,13 +39,12 @@ library
       base >4.12 && <4.15
     , bytestring >=0.10 && <0.11
     , control-bool >=0.2 && <0.3
-    , devtools >=0.0.2 && <0.1
     , exceptions >=0.10 && <0.11
     , mtl >=2.2 && <2.3
-    , source-constraints >=0.0.1 && <0.1
+    , source-constraints >=0.0.2 && <0.1
     , template-haskell >=2.15 && <2.16
     , text >=1.2 && <1.3
-    , unliftio-core >=0.1 && <0.2
+    , unliftio-core >=0.2 && <0.3
   if flag(development)
     ghc-options: -Werror
   else
@@ -64,13 +63,13 @@ test-suite test
     , bytestring >=0.10 && <0.11
     , control-bool >=0.2 && <0.3
     , conversions
-    , devtools >=0.0.2 && <0.1
+    , devtools >=0.1.0 && <0.2
     , exceptions >=0.10 && <0.11
     , mtl >=2.2 && <2.3
-    , source-constraints >=0.0.1 && <0.1
+    , source-constraints >=0.0.2 && <0.1
     , template-haskell >=2.15 && <2.16
     , text >=1.2 && <1.3
-    , unliftio-core >=0.1 && <0.2
+    , unliftio-core >=0.2 && <0.3
   if flag(development)
     ghc-options: -Werror
   else
